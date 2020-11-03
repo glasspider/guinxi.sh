@@ -17,9 +17,7 @@ How to install
 
 2) I recommend creating a folder for this purpose in the directory of your choice, if in addition to running guinxi.sh you want to save the reports you consult. 
 
-3) Change the permissions with 
-
-chmod 775 guinxi.sh
+3) Change the permissions with chmod 775 guinxi.sh
 
 4) Execute it with ./guinxi.sh
 
@@ -36,5 +34,5 @@ If you want to add more options (there are infinite combinations) you only have 
 Once you have selected an option you will see a dialog box that shows you the information. And then it will offer you the possibility to save that information in a text file inside the current directory where you run guinxi.sh.  
 
 
-Ferran (glasspider)
-Tuesday, November 3rd, 2020
+
+Ferran (glasspider), Tuesday, November 3rd, 2020
