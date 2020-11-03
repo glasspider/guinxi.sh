@@ -1,9 +1,10 @@
 # guinxi.sh
 <b>A GUI project for inxi application, build with bash and zenity's dialogs</b>
 
+<img src="https://ibb.co/wCPdpPr">
+
 (version 1.0)
 Created at Tuesday, November 3rd, 2020 by Ferran (glasspider)
-
 
 <b>Reason</b>
 
