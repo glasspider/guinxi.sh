@@ -1,5 +1,5 @@
 # guinxi.sh
-## A GUI project for inxi application, build with bash and zenity's dialogs
+## A GUI project for inxi application, built with bash shell and zenity's dialogs
 
 ![guinxi1](https://user-images.githubusercontent.com/73910143/98047677-9dd04b00-1e2c-11eb-8e41-a88d6a60e01b.png)
 
