@@ -1,8 +1,8 @@
 # guinxi.sh
-A GUI project for inxi application, build with bash and zenity's dialogs
+<b>A GUI project for inxi application, build with bash and zenity's dialogs</b>
 
 (version 1.0)
-Created at Tuesday, November 3rd, 2020
+Created at Tuesday, November 3rd, 2020 by Ferran (glasspider)
 
 
 <b>Reason</b>
@@ -36,6 +36,6 @@ If you want to add more options (there are infinite combinations) you only have 
 
 Once you have selected an option you will see a dialog box that shows you the information. And then it will offer you the possibility to save that information in a text file inside the current directory where you run guinxi.sh.  
 
-
+Enjoy it ! 
 
 <b>Ferran (glasspider)</b> 
