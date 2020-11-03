@@ -16,6 +16,9 @@ The interest I had in making this shell script is because I have old computers t
 I am convinced that many people has the same issue and I considered that I should contribute this code to the gnu/linux community.
 
 
+![guinxi2](https://user-images.githubusercontent.com/73910143/98048070-4e3e4f00-1e2d-11eb-95a6-2ff200c9101d.png)
+
+
 ## How to install 
 
 
