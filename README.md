@@ -2,7 +2,7 @@
 A GUI project for inxi application, build with bash and zenity's dialogs
 
 
-Reason
+<b>Reason</b>
 
 
 The interest I had in making this shell script is because I have old computers that need to be monitored for temperature sensors, disk capacity or memory consumption frequently. Therefore I needed to use inxi. Until I came up with the idea to make inxi with window dialogs and guinxi.sh is the result of that idea. 
