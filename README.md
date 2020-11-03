@@ -1,6 +1,9 @@
 # guinxi.sh
 A GUI project for inxi application, build with bash and zenity's dialogs
 
+(version 1.0)
+Created at Tuesday, November 3rd, 2020
+
 
 <b>Reason</b>
 
@@ -10,7 +13,7 @@ The interest I had in making this shell script is because I have old computers t
 I am convinced that many people has the same issue and I considered that I should contribute this code to the gnu/linux community.
 
 
-How to install 
+<b>How to install</b> 
 
 
 1) You only need to download the code to your computer. 
@@ -24,7 +27,7 @@ How to install
 5) I also recommend setting up an alias if you don't want to write the execution command 
 
 
-How it works 
+<b>How it works</b> 
 
 
 guinxi allows you to choose between several options that inxi has by default. I have chosen the most common and necessary for me. 
@@ -35,4 +38,4 @@ Once you have selected an option you will see a dialog box that shows you the in
 
 
 
-Ferran (glasspider), Tuesday, November 3rd, 2020
+<b>Ferran (glasspider)</b> 
