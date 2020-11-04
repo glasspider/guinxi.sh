@@ -12,7 +12,7 @@ The interest I had in making this shell script is because I have old computers t
 
 I am convinced that many people has the same issue and I considered that I should contribute this code to the gnu/linux community.
 
-![guinxi4](https://user-images.githubusercontent.com/73910143/98102219-ad36af00-1e93-11eb-8076-3487bbdb1492.png)
+![guinxi1](https://user-images.githubusercontent.com/73910143/98147303-a4ae9a80-1ecc-11eb-8f83-ff701161c4ce.png)
 
 ## How to install 
 
