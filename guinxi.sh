@@ -43,12 +43,12 @@ case $opc in
         "inxi -s") 
             zenity --info --width=660 --height=200 --title="inxi -s information" --text "CPU & GPU SENSORS:\n\n$(inxi -s)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"         
-            [[ $? == 0 ]] && inxi -s > guinxi_info_sensores.txt
+            [[ $? == 0 ]] && inxi -s > guinxi_info_sensors.txt
         ;;
         "inxi -B") 
             zenity --info --width=660 --height=200 --title="inxi -B information" --text "LEVEL OF BATTERY:\n\n$(inxi -B)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -B > guinxi_info_bateria.txt  
+            [[ $? == 0 ]] && inxi -B > guinxi_info_battery.txt  
         ;;
         "inxi -C") 
             zenity --info --width=660 --height=200 --title="inxi -C information" --text "CPU FEATURES:\n\n$(inxi -C)"
@@ -58,22 +58,22 @@ case $opc in
         "inxi -D") 
             zenity --info --width=660 --height=200 --title="inxi -D information" --text "HARD DISK FEATURES:\n\n$(inxi -D)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -D > guinxi_info_discos.txt
+            [[ $? == 0 ]] && inxi -D > guinxi_info_disks.txt
         ;;
         "inxi -P") 
             zenity --info --width=660 --height=200 --title="inxi -P information" --text "PARTITIONS BUILT:\n\n$(inxi -P)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -P > guinxi_info_particiones.txt
+            [[ $? == 0 ]] && inxi -P > guinxi_info_partitions.txt
         ;;
         "inxi -p") 
             zenity --info --width=660 --height=200 --title="inxi -p information" --text "PARTITIONS MOUNTED:\n\n$(inxi -p)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -p > guinxi_info_part_montadas.txt
+            [[ $? == 0 ]] && inxi -p > guinxi_info_mounted.txt
         ;;
         "inxi -r") 
             zenity --info --width=660 --height=200 --title="inxi -r information" --text "REPOSITORY SOURCE:\n\n$(inxi -r)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -r > guinxi_info_repositorios.txt
+            [[ $? == 0 ]] && inxi -r > guinxi_info_repositories.txt
         ;;        
         "inxi -G") 
             zenity --info --width=660 --height=200 --title="inxi -G information" --text "GRAPHIC CARDS INFO:\n\n$(inxi -G)"
@@ -83,22 +83,22 @@ case $opc in
         "inxi -m") 
             zenity --info --width=660 --height=200 --title="inxi -m information" --text "RAM MEMORY INFO:\n\n$(inxi -m)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -m > guinxi_info_memoria.txt  
+            [[ $? == 0 ]] && inxi -m > guinxi_info_memory.txt  
         ;;
         "inxi -N") 
             zenity --info --width=660 --height=200 --title="inxi -N information" --text "NETWORK CARD INFO:\n\n$(inxi -N)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -N > guinxi_info_red.txt  
+            [[ $? == 0 ]] && inxi -N > guinxi_info_network.txt  
         ;;
         "inxi -S") 
             zenity --info --width=660 --height=200 --title="inxi -S information" --text "SYSTEM FEATURES:\n\n$(inxi -S)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -S > guinxi_info_sistema.txt
+            [[ $? == 0 ]] && inxi -S > guinxi_info_system.txt
         ;;
         "inxi -F") 
             zenity --info --width=660 --height=600 --title="inxi -F information" --text "FULL HARDWARE REPORT:\n\n$(inxi -F)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -F > guinxi_info_resumen.txt          
+            [[ $? == 0 ]] && inxi -F > guinxi_info_full_report.txt          
         ;;
         "inxi -wxxx") 
             zenity --info --width=660 --height=400 --title="inxi -wxxx information" --text "CURRENT LOCAL WEATHER INFO:\n\n$(inxi -wxxx)"
