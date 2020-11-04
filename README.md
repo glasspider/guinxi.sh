@@ -1,7 +1,7 @@
 # guinxi.sh
 ## A GUI project for inxi application, built with bash shell and zenity's dialogs
 
-![guinxi1](https://user-images.githubusercontent.com/73910143/98047677-9dd04b00-1e2c-11eb-8e41-a88d6a60e01b.png)
+![guinxi5](https://user-images.githubusercontent.com/73910143/98102858-6e552900-1e94-11eb-8b4e-8b643d3d7b8f.png)
 
 (version 1.0)
 Created at Tuesday, November 3rd, 2020 by Ferran (glasspider)
