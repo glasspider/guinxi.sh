@@ -1,7 +1,7 @@
 # guinxi.sh
 ## A GUI project for inxi application, built with bash shell and zenity's dialogs
 
-![guinxi5](https://user-images.githubusercontent.com/73910143/98102858-6e552900-1e94-11eb-8b4e-8b643d3d7b8f.png)
+![guinxi1](https://user-images.githubusercontent.com/73910143/98147303-a4ae9a80-1ecc-11eb-8f83-ff701161c4ce.png)
 
 (version 1.0)
 Created at Tuesday, November 3rd, 2020 by Ferran (glasspider)
@@ -12,7 +12,7 @@ The interest I had in making this shell script is because I have old computers t
 
 I am convinced that many people has the same issue and I considered that I should contribute this code to the gnu/linux community.
 
-![guinxi1](https://user-images.githubusercontent.com/73910143/98147303-a4ae9a80-1ecc-11eb-8f83-ff701161c4ce.png)
+![guinxi2](https://user-images.githubusercontent.com/73910143/98147472-d9225680-1ecc-11eb-8134-605f52aa49f5.png)
 
 ## How to install 
 
