@@ -3,24 +3,18 @@
 
 ![guinxi1](https://user-images.githubusercontent.com/73910143/98047677-9dd04b00-1e2c-11eb-8e41-a88d6a60e01b.png)
 
-
 (version 1.0)
 Created at Tuesday, November 3rd, 2020 by Ferran (glasspider)
 
-
 ## Reason
-
 
 The interest I had in making this shell script is because I have old computers that need to be monitored for temperature sensors, disk capacity or memory consumption frequently. Therefore I needed to use inxi. Until I came up with the idea to make inxi with window dialogs and guinxi.sh is the result of that idea. 
 
 I am convinced that many people has the same issue and I considered that I should contribute this code to the gnu/linux community.
 
-
-![guinxi2](https://user-images.githubusercontent.com/73910143/98048070-4e3e4f00-1e2d-11eb-95a6-2ff200c9101d.png)
-
+![guinxi4](https://user-images.githubusercontent.com/73910143/98102219-ad36af00-1e93-11eb-8076-3487bbdb1492.png)
 
 ## How to install 
-
 
 1) You only need to download the code to your computer. 
 
@@ -32,9 +26,7 @@ I am convinced that many people has the same issue and I considered that I shoul
 
 5) I also recommend setting up an alias if you don't want to write the execution command 
 
-
 ## How it works 
-
 
 guinxi allows you to choose between several options that inxi has by default. I have chosen the most common and necessary for me. 
 
