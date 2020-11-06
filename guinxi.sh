@@ -5,9 +5,8 @@
 # Subname: "guinxi.sh - A GUI project for inxi"
 # Description: Tool to transfer inxi options to GUI front-end
 #
-# Version: 1.0 
-# Author: Ferran "glasspider"
-# (published at November 3, 2020 into github.com)
+# Version: 1.1 
+# Author: Ferran Trape (published at November 3, 2020)
 # 
 # Usage in your terminal: 
 # 1) Once downloaded guinxi.sh change the permissions with:
@@ -35,6 +34,7 @@ opc=$(zenity --list --width=500 --height=500 --icon-name="info" --title="guinxi.
 "inxi -N" "Network Card features" \
 "inxi -S" "OS Info" \
 "inxi -F" "Full Hardware Report" \
+"inxi -Fxxxrza" "Updating info of Hardware" \
 "inxi -wxxx" "Current Local Weather Info" \
 "QUIT" "Quit GUInxi"
 )
@@ -73,7 +73,7 @@ case $opc in
         "inxi -r") 
             zenity --info --width=660 --height=200 --title="inxi -r information" --text "REPOSITORY SOURCE:\n\n$(inxi -r)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -r > guinxi_info_repositories.txt
+            [[ $? == 0 ]] && inxi -r > guinxi_info_repository.txt
         ;;        
         "inxi -G") 
             zenity --info --width=660 --height=200 --title="inxi -G information" --text "GRAPHIC CARDS INFO:\n\n$(inxi -G)"
@@ -98,7 +98,12 @@ case $opc in
         "inxi -F") 
             zenity --info --width=660 --height=600 --title="inxi -F information" --text "FULL HARDWARE REPORT:\n\n$(inxi -F)"
             zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
-            [[ $? == 0 ]] && inxi -F > guinxi_info_full_report.txt          
+            [[ $? == 0 ]] && inxi -F > guinxi_info_report.txt          
+        ;;
+        "inxi -Fxxxrza")
+            zenity --info --width=660 --height=600 --title="inxi -Fxxxrza information" --text "UPDATING INFO OF HARDWARE:\n\n$(inxi -Fxxxrza)"
+            zenity --question --width=400 --height=80 --text "Would you like save it into a file?"
+            [[ $? == 0 ]] && inxi -Fxxxrza > guinxi_updated_info.txt          
         ;;
         "inxi -wxxx") 
             zenity --info --width=660 --height=400 --title="inxi -wxxx information" --text "CURRENT LOCAL WEATHER INFO:\n\n$(inxi -wxxx)"
@@ -106,7 +111,7 @@ case $opc in
             [[ $? == 0 ]] && inxi -wxxx > guinxi_info_meteo.txt
         ;;
         "QUIT")
-            echo "****** guinxi.sh finished ******"
+            echo "****** guinxi.sh is finished ******"
             exit 0
         ;;
 esac
