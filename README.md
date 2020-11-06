@@ -24,7 +24,12 @@ I am convinced that many people has the same issue and I considered that I shoul
 
 4) Execute it with `./guinxi.sh`
 
-5) I also recommend setting up an alias if you don't want to write the execution command 
+## Optional
+
+5) I also recommend setting up an alias if you don't want to write the execution command
+
+6) Also you could to create your own custom application launcher like it's show below:
+https://technastic.com/add-linux-apps-app-launcher-desktop-file/
 
 ## How it works 
 
