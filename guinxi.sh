@@ -5,8 +5,8 @@
 # Subname: "guinxi.sh - A GUI project for inxi"
 # Description: Tool to transfer inxi options to GUI front-end
 #
-# Version: 1.1 
-# Author: Ferran Trape (published at November 3, 2020)
+# Version: 1.2 
+# Author: Ferran "glasspider" (published at November 6, 2020)
 # 
 # Usage in your terminal: 
 # 1) Once downloaded guinxi.sh change the permissions with:
